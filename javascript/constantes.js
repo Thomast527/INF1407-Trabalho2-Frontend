@@ -1,3 +1,3 @@
 "use strict";
-const backendAddress = 'https://redesigned-meme-r479rgjqgr54fp4wp-8000.app.github.dev/';
+const backendAddress = 'https://Thomast527.pythonanywhere.com';
 const tokenKeyword = 'Token ';
