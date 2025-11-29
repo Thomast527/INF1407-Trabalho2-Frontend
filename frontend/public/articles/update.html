@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atualização</title>
+
+    <script src="../javascript/constantes.js" defer></script>
+    <script src="../javascript/artigos/update.js" defer></script>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/update.css">
+</head>
+
+<body>
+
+    <iframe src="../cabecalho.html" frameborder="0" width="100%" height="50" id="cabecalho"></iframe>
+
+    <h1>Atualizando o Artigo #<span id="artigoId"></span></h1>
+
+    <form id="meuFormulario">
+
+        <input type="hidden" name="id" id="id">
+
+        <div>
+            <label for="titulo">Título</label>
+            <input id="titulo" type="text" name="titulo" required>
+        </div>
+
+        <div>
+            <label for="conteudo">Conteúdo</label>
+            <textarea id="conteudo" name="conteudo" rows="10" required></textarea>
+        </div>
+
+        <div>
+            <label for="categoria">Categoria</label>
+            <select id="categoria" name="categoria"></select>
+        </div>
+
+        <div style="text-align: center;">
+            <button id="atualiza" name="atualiza" type="submit">Atualizar</button>
+        </div>
+    </form>
+
+    <div id="mensagem"></div>
+
+</body>
+
+</html>
